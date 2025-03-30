@@ -1,0 +1,6 @@
+[submodule "fuzzycontrol"]
+	path = fuzzycontrol
+	url = git@github.com:jplv-challenges/fuzzycontrol.git
+[submodule "control-arena"]
+	path = control-arena
+	url = git@github.com:jplv-challenges/control-arena.git
