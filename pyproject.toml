@@ -1,0 +1,14 @@
+[project]
+name = "eficas"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "control-arena",
+    "fuzzycontrol",
+]
+
+[tool.uv.sources]
+fuzzycontrol = { path = "fuzzycontrol" }
+control-arena = { path = "control-arena" }
