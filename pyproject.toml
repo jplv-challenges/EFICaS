@@ -10,5 +10,10 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-fuzzycontrol = { path = "fuzzycontrol" }
-control-arena = { path = "control-arena" }
+fuzzycontrol = { path = "fuzzycontrol", editable = true }
+control-arena = { path = "control-arena", editable = true }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]

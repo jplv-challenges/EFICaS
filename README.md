@@ -25,6 +25,8 @@ uv sync
 
 ### Examples
 
-```
+Make sure to fill in your API keys inside *control-arena/.env*
 
+```
+uv run --env-file control-arena/.env control-arena/examples/evals/monitors_llm_bash.py --limit 10 --cache_honest False --cache_attack False 
 ```
